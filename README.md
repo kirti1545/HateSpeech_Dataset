@@ -12,7 +12,7 @@ Our research was accepted at ICPR 2024, where we showed the effectiveness of Mul
 
 
 #### Dataset Link
-You can download the dataset from Google Dive [link](https://drive.google.com/file/d/1ckl3j7Sehc-xMe9kxZqT28O7U1QyflgW/view?usp=sharing) (size~600Mb). The link contains a zip file that requires password for unzipping. To get the password please follow the license agreement below.
+You can download the dataset from Google Dive [link](https://drive.google.com/file/d/1ckl3j7Sehc-xMe9kxZqT28O7U1QyflgW/view?usp=sharing) (size~600Mb). The link contains a zip file that requires password for unzipping. To get the password, please follow the license agreement below.
 
 ## License Agreement
 - Have the license agreement reviewed and signed by an individual authorized to make legal commitments on behalf of your institution. Your institution's legal office must review and execute the license. The signature of the Director, the Registrar, or the Head of the Department with the university seal is also accepted.
@@ -21,3 +21,4 @@ You can download the dataset from Google Dive [link](https://drive.google.com/fi
 
 ## Citation:
 - Kirtilekha Bhesra, Akshay Agarwal, “A Multi-Modal Framework to Counter Hate Speeches”. In IEEE International Conference on Pattern Recognition (ICPR), 2024.
+- Kirtilekha Bhesra, Shivam Ashok Shukla, Akshay Agarwal, "Audio vs. Text: Identify a Powerful Modality for Effective Hate Speech Detection". In International Conference on Learning Representations (ICLR) TinyPapers, 2023.

@@ -10,15 +10,18 @@ Our research was accepted at ICPR 2024, where we showed the effectiveness of Mul
 |Female(CLB)|   1000        |
 |Female(KSP)|   1000        |
 
-HateSpeech_Dataset.zip contains the following files.
-- text_labels.csv (text sentences and their labels)
-- audio_labels.csv (audio filenames and their labels)
-- audio (containing audio files).
+```HateSpeech_Dataset.zip``` contains the following files.
+- ```text_data+labels.csv``` (contains text sentences, their labels, and sentence ids)
+- ```audio_labels.csv``` (contains audio filenames and their labels)
+- ```audio``` folder (containing audio files).
+- audio filenames have ``` output_<Gender><Voice>_<Sentence_id>.wav``` strecture. Where gender is either male or female. Voice is among BDL, RML, CLB, and KSP. Sentence_id is the id of the sentence (see ```text_data+label.csv```) for which audio is generated.
 
-``` While performing the experiments we randomly (seed=42) splitted the data into 80:20 for training and testing respectively.```
+```While performing the experiments we randomly (seed=42) splitted the data into 80:20 for training and testing respectively.```
 
 #### Dataset Link
-You can download the dataset from Google Dive [link](https://drive.google.com/file/d/1gcWR_SKHB2sXRehqz17OBwbSp3trE3Kq/view?usp=sharing) (size~600Mb). The link contains a zip file that requires password for unzipping. To get the password, please follow the license agreement below.
+You can download the dataset from Google Dive [link](https://drive.google.com/file/d/1lJS1wVrRpBONDio4lGQSNXXZQDMxy8QA/view?usp=sharing) (size~600Mb). The link contains a zip file that requires password for unzipping. To get the password, please follow the license agreement below.
+
+***If you find errors while unzipping, use ```7zip``` software in windows.***
 
 ## License Agreement
 - Have the license agreement reviewed and signed by an individual authorized to make legal commitments on behalf of your institution. Your institution's legal office must review and execute the license. The signature of the Director, the Registrar, or the Head of the Department with the university seal is also accepted.

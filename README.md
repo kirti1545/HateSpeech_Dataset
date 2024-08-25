@@ -14,7 +14,7 @@ Our research was accepted at ICPR 2024, where we showed the effectiveness of Mul
 - ```text_data+labels.csv``` (contains text sentences, their labels, and sentence ids)
 - ```audio_labels.csv``` (contains audio filenames and their labels)
 - ```audio``` folder (containing audio files).
-- audio filenames have ``` output_<Gender><Voice>_<Sentence_id>.wav``` strecture. Where gender is either male or female. Voice is among BDL, RML, CLB, and KSP. Sentence_id is the id of the sentence (see ```text_data+label.csv```) for which audio is generated.
+- audio filenames have ``` output_<Gender><Voice>_<Sentence_id>.wav``` structure. Where gender is either male or female. Voice is among BDL, RML, CLB, and KSP. Sentence_id is the id of the sentence (see ```text_data+label.csv```) for which audio is generated.
 
 ```While performing the experiments we randomly (seed=42) splitted the data into 80:20 for training and testing respectively.```
 
